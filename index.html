@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Secure Password Generator</title>
+        <link rel="icon" href="assets/icon.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Secure Password Generator</h1>
+            <div class="password-container">
+                <input type="text" id="password" readonly>
+                <button onclick="generatePassword()">Generate Password</button>
+                <button onclick="copyToClipboard()">Copy to Clipboard</button>
+            </div>
+            <div class="options">
+                <label for="length"><b><u><i>Length</i></u></b></label><br>
+                <input type="number" id="length" min="4" max="30" value="8">
+                <br><br>
+                <label><b><u><i>Characters Required:</i></u></b></label><br>
+                <input type="checkbox" id="uppercase"> <label for="uppercase">Uppercase</label><br>
+                <input type="checkbox" id="lowercase" checked> <label
+                    for="lowercase">Lowercase</label><br>
+                <input type="checkbox" id="numbers" checked> <label
+                    for="numbers">Numbers</label><br>
+                <input type="checkbox" id="special"> <label for="special">Special
+                    Characters</label><br>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,4 +1,4 @@
-# Top 100 Coders
+# [Top 100 Coders](https://top100coders.com/)
 ## SecurePasswordGenerator
 
 ### The Problem
@@ -8,13 +8,18 @@ In the digital age, weak passwords pose a significant threat to personal and onl
 The motivation behind the SecurePasswordGenerator project stems from a deep-seated concern for the increasingly prevalent issue of weak passwords and its consequential impact on individual and collective online security. This project of mine aims to reduce data leaks of individuals online.
 
 ### The Solution
-#TODO
+A simple password generator website. Generate passwords which are a random combination of uppercase, lowercase, special characters and numbers.   
+Copy them to your clipboard in just a single click!
 
 ### Features
-#TODO
+- Generate passwords of any length.
+- Include uppercase, lowercase, special characters and numbers in your password.
+- Copy your password to your clipboard in just a single click!
 
 ### View a live demo of the project
-#TODO
+https://passgen.xditya.me
 
 ### Deployment
-#TODO
+- Clone the repository
+- Run the index.html on localhost.
+
